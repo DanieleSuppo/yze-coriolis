@@ -1,13 +1,12 @@
 {
-    "name": "yzecoriolis",
+    "id": "yzecoriolis",
     "title": "Coriolis",
     "description": "Coriolis System for Foundry VTT.",
     "version": "3.9.4",
     "compatibility": {
         "minimum": "11",
-        "verified": "12"
-    },
-    "templateVersion": 2,
+        "verified": "13"
+    }
     "authors": [
         {
             "name": "Winks"
@@ -63,8 +62,8 @@
             "path": "lang/fr.json"
         }
     ],
-    "gridDistance": 1,
-    "gridUnits": "m",
+    "grid.distance": 1,
+    "grid.units": "m",
     "primaryTokenAttribute": "health",
     "secondaryTokenAttribute": "power",
     "url": "",
